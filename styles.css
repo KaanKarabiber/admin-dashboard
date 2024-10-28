@@ -1,0 +1,27 @@
+body, html, ul{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-columns: 1fr 4fr;
+}
+.side-bar{
+    grid-row: 1 / 4 ;
+    background-color: aqua;
+}
+.header{
+    grid-row: 1 / 3;
+    background-color: bisque;
+}
+.content{
+    background-color: blue;
+    display: flex;
+}
+.announcements{
+    background-color: brown;
+}
+.trending{
+    background-color: blueviolet;
+}
