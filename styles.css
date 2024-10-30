@@ -4,8 +4,10 @@ body, html, ul{
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-rows: 1fr 1fr 10fr;
     grid-template-columns: 1fr 4fr;
+    width: 100vw;   /* Full viewport width */
+    height: 100vh;  /* Full viewport height */
 }
 .side-bar{
     grid-row: 1 / 4 ;
@@ -31,10 +33,40 @@ li img{
     width: 3rem;
     height: 3rem;
 }
+
 .header{
     grid-row: 1 / 3;
     background-color: bisque;
 }
+.header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-left{
+    display: flex;
+}
+.header-top-right{
+    display: flex;
+    align-items: center;
+}
+.header-bottom-left{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+#pp-top{
+    width: 3rem;
+    height: 3rem;
+}
+#pp-mid{
+    width: 5rem;
+    height: 5rem;
+}
+
 .content{
     background-color: blue;
     display: flex;
