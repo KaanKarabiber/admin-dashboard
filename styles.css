@@ -71,6 +71,11 @@ li img{
     background-color: blue;
     display: flex;
 }
+.content-icons{
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+}
 .announcements{
     background-color: brown;
 }
