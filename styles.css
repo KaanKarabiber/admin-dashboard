@@ -4,7 +4,7 @@ body, html, ul{
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 10fr;
+    grid-template-rows: 1fr 1fr 12fr;
     grid-template-columns: 1fr 5fr;
     width: 100vw;   /* Full viewport width */
     height: 100vh;  /* Full viewport height */
@@ -17,6 +17,7 @@ li{
     display: flex;
     align-items: center;
     padding: 5px;
+    margin-left: 5px;
     color: #f1f5f9;
     font-weight: 900;
     font-size: large;
@@ -27,7 +28,7 @@ li img{
     margin-right: 5px;  
 }
 .side-bar .custom-list li:nth-child(7) {
-    margin-bottom: 10vh; 
+    margin-bottom: 50vh; 
 }
 #dashboard{
     font-size: 30px;
@@ -50,10 +51,17 @@ li img{
 }
 .header-top-left{
     display: flex;
+    gap: 10px;
+}
+input{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #f1f5f9;
 }
 .header-top-right{
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 .buttons{
     border-radius: 10px;
@@ -101,13 +109,21 @@ li img{
     background-color: #fff7ed;
     width: 400px;
     height: 200px;
+    padding: 10px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 .content-icons{
     display: flex;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 10px;
+    right: 5rem;
+    gap: 0.3rem;
 }
 .announcements{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
