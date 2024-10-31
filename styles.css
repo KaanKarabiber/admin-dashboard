@@ -5,7 +5,7 @@ body, html, ul{
 .container{
     display: grid;
     grid-template-rows: 1fr 1fr 10fr;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     width: 100vw;   /* Full viewport width */
     height: 100vh;  /* Full viewport height */
 }
@@ -55,6 +55,19 @@ li img{
     display: flex;
     align-items: center;
 }
+.buttons{
+    border-radius: 10px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #fae8ff;
+    padding: 5px;
+    margin-right: 1rem;
+}
+.buttons:hover{
+    background-color: #86198f;
+    color: white;
+    font-weight: 900;
+}
 .header-bottom-left{
     display: flex;
     align-items: center;
@@ -89,6 +102,7 @@ li img{
     width: 400px;
     height: 200px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
 }
 .content-icons{
     display: flex;
@@ -98,11 +112,13 @@ li img{
 .announcements{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
     background-color: #fff7ed;
+    border-radius: 10px;
 }
 .trending{
     background-color: #fff7ed;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
     padding: 10px;
+    border-radius: 10px;
 }
 .trending img{
     width: 3rem;
