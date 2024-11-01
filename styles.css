@@ -129,7 +129,7 @@ strong{
 .cards{
     background-color: var(--background-color);
     width: 450px;
-    height: 200px;
+    height: 190px;
     padding: 10px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
@@ -137,6 +137,9 @@ strong{
     flex-direction: column;
     cursor: pointer;
     position: relative;
+}
+.cards > h4{
+    margin: 0;
 }
 .content-icons{
     display: flex;
@@ -160,6 +163,8 @@ strong{
 }
 .snippet > h4{
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 hr {
     border: none;
