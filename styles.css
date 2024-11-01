@@ -2,9 +2,13 @@ body, html, ul{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
 }
 :root{
     --background-color: #f8fafc;
+}
+img:hover{
+    cursor: pointer;
 }
 .container{
     display: grid;
@@ -25,6 +29,7 @@ li{
     color: #f1f5f9;
     font-weight: 900;
     font-size: large;
+    cursor: pointer;
 }
 li img{
     width: 2rem;
@@ -77,6 +82,7 @@ input{
     padding: 5px;
     margin-right: 1rem;
     font-weight: 900;
+    cursor: pointer;
 }
 .buttons:hover{
     background-color:#65a30d;
@@ -89,6 +95,7 @@ input{
 }
 strong{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 #hi{
     font-weight: 900;
@@ -117,7 +124,7 @@ strong{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3rem;
+    gap: 2rem;
 }
 .cards{
     background-color: var(--background-color);
@@ -128,6 +135,7 @@ strong{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     position: relative;
 }
 .content-icons{
@@ -149,6 +157,9 @@ strong{
     padding: 1rem;
     max-width: 100%;
     max-height: 100%;
+}
+.snippet > h4{
+    cursor: pointer;
 }
 hr {
     border: none;
@@ -177,4 +188,7 @@ hr {
 }
 .trending-text-sub{
     color: #4b5563;
+}
+.user-tag{
+    cursor: pointer;
 }
